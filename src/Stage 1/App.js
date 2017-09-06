@@ -19,7 +19,6 @@ class App extends Component {
   }
 
   selectEmployee(employee) {
-    console.log(this);
     this.setState({ selectedEmployee: employee });
   }
 
